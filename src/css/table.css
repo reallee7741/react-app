@@ -1,0 +1,34 @@
+.table{
+    width: 1076px;
+    margin-top: 15px;
+}
+.table__row-heading{
+    background-color: #474955;
+    color: white;
+    height: 54px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    font-size: 14px;
+}
+.table__row-heading img{
+    margin-left: 25px;
+}
+.table__row{
+    height: 56px;
+    border: 1px solid #E3E6EC;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    font-size: 13px;
+}
+.table__column{
+    border: 1px solid #E3E6EC;
+    border-left: none;
+    border-top: none;
+}
+.table__column:first-child{
+    border-left: 1px solid #E3E6EC;
+}

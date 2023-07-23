@@ -1,0 +1,41 @@
+.pagination__button{
+    display: inline-block;
+}
+.pagination__page-numbers{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: 24px;
+}
+.pagination__page-number{
+    display: inline-block;
+    margin-left: 5px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    font-size: 18px;
+}
+.pagination__page-number_active{
+    color: #7EBC3C;
+}
+.pagination__page-number:first-child{
+    margin-left: 0;
+}
+.pagination__button{
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    font-size: 24px;
+}
+#previous{
+    float: left;
+    margin-top: 16px;
+}
+#next{
+    float: right;
+    margin-top: 16px;
+}

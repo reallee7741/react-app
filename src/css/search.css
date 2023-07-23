@@ -1,0 +1,25 @@
+.search{
+    width: 631px;
+    height: 52px;
+    background-color: #5A5C66;
+}
+.search__type-field{
+    height: 52px;
+    width: 100%;
+    width: 544px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-left: 26px;
+    outline: none;
+    vertical-align: top;
+    border: none;
+}
+.search__button{
+    margin-top: 15px;
+    margin-right: 16px;
+    float: right;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
